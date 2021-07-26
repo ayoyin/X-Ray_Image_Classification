@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+# Chest X-Ray Images (Pneumonia)
+
+## Introduction
 
 You can use the [editor on GitHub](https://github.com/ayoyin/X-Ray_Image_Classification/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
