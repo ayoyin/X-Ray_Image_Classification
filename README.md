@@ -1,21 +1,26 @@
-<div align="center"> 
-  # **Chest X-Ray Images (Pneumonia)**
- </div>
+<div align="center">
+  Chest X-Ray Images (Pneumonia)
+</div>
+
+
 
 ## Introduction
 
-You can use the [editor on GitHub](https://github.com/ayoyin/X-Ray_Image_Classification/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+As we adapt and evolve as a species, automation is a large part of this change that we experience that allows us to grow technically, and also opens up a new depth to our problem solving capabilites. Automation has the ability to help us maintain discipline, make decisions, and provide advice, along with many other benefits. This project attempts to take automation to the next level within the medical field in providing diagnoses to patients experiencing symptons of pneumonia. The aim of this project is to create a binary classification model that inputs an image of a chest x-ray and outputs a diagnosis of whether or not the inidividual has pneumonia. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Background & Problem Statement
 
-### Markdown
+In detecting pneumonia in patients, the typical procedure is to listen to the patient's lungs using a stethoscope to observe any abnormalities, hypothesizing a visual diagnosis of a patient's chest x-ray, and if necessary for a clearer diagnosis, using a blood test to confirm the presence of the infection.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**PROBLEM STATEMENT:** Create a model that can accurately detect the presence of a pnemonia infection given an image of a patient's chest x-ray.
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
+### Data
+
+
+
 ## Header 2
 ### Header 3
 
