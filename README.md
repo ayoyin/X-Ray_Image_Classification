@@ -1,4 +1,6 @@
-<div align="center"> # Chest X-Ray Images (Pneumonia) </div>
+<div align="center"> 
+  # Chest X-Ray Images (Pneumonia) 
+</div>
 
 ## Introduction
 
