@@ -107,33 +107,34 @@ weighted avg       0.90      0.90      0.90       624
 
 ![confusion](https://user-images.githubusercontent.com/44102000/127200849-652ed7cf-1a90-4491-885b-1b9a44ba49d0.png)
 
+### Precision-Recall Curve
+The Precision-Recall Curve is used instead of the ROC Curve to judge model efficacy when working with data with a target imbalance. 
+```
+default = len(test_df['class'][test_df['class']==1]) / len(test_df['class'])
 
-```markdown
-Syntax highlighted code block
+precision, recall, threshold = precision_recall_curve(test_df['class'], model_prob)
 
+plt.plot([0, 1], [default, default], linestyle='--', label='Default Learning')
+plt.plot(recall, precision, marker='.', label='ResNet50V2')
 
-## Header 2
-### Header 3
+plt.xlabel('Recall')
+plt.ylabel('Precision')
+plt.legend()
+```
+![precision-recall](https://user-images.githubusercontent.com/44102000/127202521-b7fcc811-8d6c-428c-83b8-59db8ced419a.png)
 
-- Bulleted
-- List
+```
+auc = auc(recall, precision)
 
-1. Numbered
-2. List
+auc
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+           Precision-Recall Area Under Curve - 0.9697865224466637
 ```
 
+```
+ROC = roc_auc_score(test_df['class'], model_prob)
 
+ROC
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ayoyin/X-Ray_Image_Classification/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+           ROC Area Under Curve - 0.9500109577032654
+```
