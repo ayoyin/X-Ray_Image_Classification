@@ -21,7 +21,7 @@ In detecting pneumonia in patients, the typical procedure is to listen to the pa
 
 The data used for this project was sourced from a Kaggle.com competition. It includes 5,216 images for training, 624 images for testing, and 16 images for validation.
 
-Among the 5216 images for TRAINING, there were 1,341 images of NORMAL lungs while there were 3,875 images of lungs with PNEUMONIA.
+Among the 5,216 images for TRAINING, there were 1,341 images of NORMAL lungs while there were 3,875 images of lungs with PNEUMONIA.
 
 Among the 624 images for TESTING, there were 233 images of NORMAL lungs while there were 389 images of lungs with PNEUMONIA.
 
