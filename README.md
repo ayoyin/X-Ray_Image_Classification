@@ -1,7 +1,8 @@
 <div align="center">
   Chest X-Ray Images (Pneumonia)
+  
+  Created by Ayotunde Yoyin
 </div>
-
 
 
 ## Introduction
