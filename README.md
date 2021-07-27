@@ -1,7 +1,7 @@
 <div align="center">
-  Chest X-Ray Images (Pneumonia)
+  <h1>Chest X-Ray Images (Pneumonia)</h1>
   
-  Created by Ayotunde Yoyin
+  <h3>Created by Ayotunde Yoyin</h3>
 </div>
 
 
@@ -30,7 +30,7 @@ The validation set was split 50-50 between NORMAL and PNEUMONIA. 8 NORMAL images
 ![12ex](https://user-images.githubusercontent.com/44102000/127099166-8e842d4b-da3b-488e-ba6d-3dc48c6c6a9c.png)
 
 ## Modeling & Analysis
-
+The approach in modeling was to use a Convolutional Neural Network (CNN). This is because CNNs are adept 
 ```markdown
 Syntax highlighted code block
 
