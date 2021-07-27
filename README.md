@@ -19,7 +19,9 @@ Syntax highlighted code block
 
 ### Data
 
+[Link](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
+The data used for this project was sourced from a Kaggle.com competition. 
 
 ## Header 2
 ### Header 3
