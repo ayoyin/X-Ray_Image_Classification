@@ -30,7 +30,7 @@ The validation set was split 50-50 between NORMAL and PNEUMONIA. 8 NORMAL images
 ![12ex](https://user-images.githubusercontent.com/44102000/127099166-8e842d4b-da3b-488e-ba6d-3dc48c6c6a9c.png)
 
 ## Modeling & Analysis
-The approach in modeling was to use a Convolutional Neural Network (CNN). This is because CNNs are adept at image recognition because of their application of the convolution and pooling layers which work together to turn an image into an array of information represent the patterns and colors that occur within a given image.
+The approach in modeling was to use a Convolutional Neural Network (CNN). This is because CNNs are adept at image recognition because of their application of the convolution and pooling layers which work together to turn an image into an array of information that represents the patterns and colors that occur within a given image.
 
 ![CNN](https://user-images.githubusercontent.com/44102000/127189698-6b597885-05ef-4ad7-87b6-a73ae6fdc183.jpeg)
 
